@@ -1,0 +1,16 @@
+{
+  Função que recebe um número (n), maior que zero e devolva o resultado em 2 sobre n. 
+}
+
+Function elev(n:integer): integer;
+  Begin
+    If (n=o)Then
+      elev:1
+        If (n>0) then
+           fat:= 2.elev(n-1)
+        else
+          writeln('O número deve ser maior ou igual a zero');
+     end;
+        end;
+  end;
+  
