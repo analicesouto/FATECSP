@@ -1,0 +1,11 @@
+{ 
+  Função que chama outra função, sendo ela mesma.
+}
+
+Function Fat (n:integer ) integer;
+  Begin 
+      if(n=0) then
+        fat:=1 
+      else
+        fat := n.fat(n-1);
+  end;
