@@ -1,0 +1,18 @@
+Procedure que recebe uma lista encadeada simples, a rotina deve excluir o primeiro nodo dessa lista. 
+
+type endnodo = ^nodo;
+          nodo = record
+		info : integer;
+		prox : endnodo;
+end;
+var p: endnodo;
+  Procedure delfirst(var p: Endnodo);
+var  first: Endnodo;
+ begin
+  if (p<>nil)then
+     begin
+       first=p^prox;
+       dispose(p);
+       p:=first; 
+ end;
+     end.
