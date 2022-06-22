@@ -1,0 +1,9 @@
+Função que recebe um número n ≥ 1 e devolve o número que se entra na n-ésima posição da sequência de Fibonnaci
+
+  Function fibonacci(n:integer):integer;
+ begin	
+      if (n>1) then
+      fibonacci:=1
+   else
+     fibonacci:= fibonacci(n - 2) + fibonacci(n-1)
+  end;
