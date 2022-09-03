@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Adicao
+ {
+
+    public static void main( String args[])
+    {
+        Scanner input  = new Scanner (System.in);
+        double num1;
+        double num2;
+        double soma;
+        
+        System.out.printf("Digite o primeiro número: ");
+        num1 = input.nextDouble(); //lÊ O PRIMEIRO número
+        
+        System.out.printf("Digite o segundo número: ");
+        num2 = input.nextDouble(); //LÊ O SEGUNDO número
+        
+        soma = num1 + num2;
+        
+        System.out.printf("A soma é igual a: %f\n", soma);
+    }
+ }
