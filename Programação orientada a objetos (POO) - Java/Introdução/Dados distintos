@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class distintos{
+    
+    public static void main(String args [])
+    {
+        Scanner input = new Scanner (System.in);
+        
+        String Nome;
+        int Idade;
+        
+        System.out.printf ("Digite seu nome: ");
+        nome = input.nextLine ();
+        
+        System.out.printf("Digite sua idade");
+        idade = input.nextInt ();
+        
+        System.out.prinf("Os dados coletados foram: \nNome: %s \nIdade: %d\n", 
+                nome, idade);
+    }
+}
