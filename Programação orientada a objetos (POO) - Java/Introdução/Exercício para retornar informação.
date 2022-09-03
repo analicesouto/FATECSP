@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class frase
+{
+        public static void main (String args[])
+        {
+            Scanner input = new Scanner (System.in);
+            
+            String frase;
+            
+            System.out.printf("Digite uma frase: ");
+            frase = input.nextLine ();
+            
+            System.out.printf("A frase digitada foi: %s\n",frase );
+        }
+        
+}
