@@ -1,0 +1,15 @@
+import java.util.Scanner; 
+public class Temperatura{
+
+      public static void main(String args [])
+      {
+            Scanner input = new Scanner (System.in);
+            float tempCelc, tempFare;
+            
+            System.out.print("Digite a Temperatura em Celcius: ");
+            tempCelc = input.nextFloat();
+            
+            TempFare = ((tempCelc * 9/5) + 32);
+            System.out.printf("a temperatura convertida em Fahrenheit é: &5.2f", TempFare);
+      }
+}
