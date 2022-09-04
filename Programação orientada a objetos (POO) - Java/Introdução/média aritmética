@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class media
+{
+    public static void main(String args[])
+    {
+        Scanner input = new Scanner (System.in);
+        
+        double nota1,nota2, med;
+        
+        System.out.printf("Digite a primeira nota: ");
+        nota1 = input.nextDouble();
+        
+        System.out.printf("Digite a segunda nota: ");
+        nota2 = input.nextDouble();
+        
+        med = (nota1 + nota2) / 2;
+        
+            if (med >= 7)
+                System.out.printf("APROVADO, com média: " + med);
+                
+            else if (med >= 4)
+                System.out.printf("RECUPERAÇÃO, com média: ", + med);
+                
+                else 
+                    System.out.printf("REPROVADO, com média: ", + med);
+    }
+}
