@@ -35,7 +35,8 @@ public class triangulos
             System.out.print("Escaleno");
         }
       }
-      else{
+      else
+      {
          System.out.print("As medidas não formam um triângulo");
       }      
     }
